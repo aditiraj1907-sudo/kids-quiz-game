@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kids Quiz 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-box">
+    <h1>🎉 Kids Quiz 🎉</h1>
+
+    <p id="status">⭐ Stars: 0 | ❤️ Lives: 3</p>
+
+    <button onclick="playLevel(1)">Play Level 1</button>
+    <button onclick="playLevel(2)">Play Level 2 🔒</button>
+
+    <div id="question"></div>
+
+    <button id="opt1" onclick="checkAnswer(1)"></button>
+    <button id="opt2" onclick="checkAnswer(2)"></button>
+
+    <p id="msg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
