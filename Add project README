@@ -1,0 +1,32 @@
+# 🎉 Kids Quiz Game 🎉
+
+A fun and interactive quiz game for kids built using **HTML, CSS, and JavaScript**.
+
+## 🚀 Features
+- 🎮 Multiple Levels
+- 🔒 Level unlocking system
+- ⭐ Star-based scoring
+- ❤️ Life system
+- 🎨 Kid-friendly UI
+
+## 🧠 How It Works
+- Complete Level 1 to unlock Level 2
+- Wrong answers reduce lives
+- Correct answers earn stars
+
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## ▶️ How to Run
+1. Download or clone the repository
+2. Open `index.html` in any browser
+
+## 🌟 Future Plans
+- More levels
+- Sound effects
+- Timer
+- Leaderboard
+
+Made with ❤️ by Aditi
