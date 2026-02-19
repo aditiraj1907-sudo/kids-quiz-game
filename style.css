@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    text-align: center;
+}
+
+.quiz-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    margin: 80px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+button {
+    padding: 10px;
+    margin: 8px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    background: #ff7a18;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+#question {
+    margin: 15px;
+    font-weight: bold;
+}
