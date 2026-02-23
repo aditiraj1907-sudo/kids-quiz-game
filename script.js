@@ -5,12 +5,12 @@ let currentAnswer = 0;
 
 function updateStatus() {
     document.getElementById("status").innerText =
-        `⭐ Stars: ${stars} | ❤️ Lives: ${lives}`;
+        ` Stars: ${stars} |  Lives: ${lives}`;
 }
 
 function playLevel(level) {
     if (level > unlockedLevel) {
-        alert("❌ Level locked! Complete previous level.");
+        alert(" Level locked! Complete previous level.");
         return;
     }
 
@@ -34,13 +34,13 @@ function playLevel(level) {
 function checkAnswer(option) {
     if (option === currentAnswer) {
         stars++;
-        document.getElementById("msg").innerText = "✅ Correct!";
+        document.getElementById("msg").innerText = " Correct!";
         if (unlockedLevel === 1) unlockedLevel = 2;
     } else {
         lives--;
-        document.getElementById("msg").innerText = "❌ Wrong!";
+        document.getElementById("msg").innerText = " Wrong!";
         if (lives === 0) {
-            alert("Game Over 😢");
+            alert("Game Over ");
         }
     }
     updateStatus();
